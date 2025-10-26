@@ -1,0 +1,62 @@
+.exercise-title {
+  color: brown;
+}
+
+.pagination-back-button {
+  padding: 5px;
+  margin-right: 8px;
+}
+
+.pagination-next-button {
+  padding: 5px;
+  margin-left: 8px;
+}
+
+.pagination-numbers {
+  margin-right: 4px;
+  margin-left: 4px;
+  font-size: large;
+}
+
+.stretch-button {
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 6px 14px;
+  transition: padding 1s;
+  cursor: pointer;
+}
+
+.stretch-button:hover {
+  padding: 12px 28px;
+}
+
+.shadow-button {
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 6px 14px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-button:active {
+  box-shadow: none;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.numbers-botton {
+  border: none;
+  background-color: green;
+  color: white;
+  transition: padding 0.2s, margin 0.2s;
+  cursor: pointer;
+  padding: 6px 14px;
+  margin: 0px 10px;
+}
+
+.numbers-botton:hover {
+  padding: 6px 24px;
+  margin: 0px 0px;
+}
