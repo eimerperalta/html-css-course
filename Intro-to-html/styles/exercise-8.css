@@ -1,0 +1,93 @@
+.textbox-8a {
+      margin-bottom: 5px;
+      display: block;
+    }
+
+    .survey-text {
+      width: 300px;
+      display: inline-block;
+      vertical-align: middle;
+      padding: 5px;
+    }
+
+    .google-logo {
+      width: 200px;
+      display: block;
+      margin: auto;
+      padding: 15px;
+    }
+
+    .google-searchbox {
+      border-radius: 20px;
+      border-style: none;
+      width: 450px;
+      height: 20px;
+      box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+      padding: 5px 10px;
+      display: block;
+      margin: auto
+    }
+
+    .textbox-8d {
+      border-radius: 4px;
+      width: 90px;
+      padding: 5px;
+      border-style: solid;
+    }
+
+    .emailbox-8d {
+      display: block;
+      border-radius: 4px;
+      margin-top: 5px;
+      padding: 5px 21px;
+      border-style: solid;
+    }
+
+    .signup-button {
+      background-color: rgb(25, 141, 242);
+      color: white;
+      border-radius: 5px;
+      border-style: none;
+      padding: 7px 82px;
+      margin-top: 5px;
+      cursor: pointer;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+      display: block;
+    }
+
+    .uber-title {
+      font-size: x-large;
+      font-family: helvetica;
+      display: block;
+    }
+
+    .uber-address {
+      border-style: none;
+      background-color: rgb(239, 239, 239);
+      display: block;
+      margin-bottom: 2px;
+      width: 280px;
+      padding: 5px 10px;
+    }
+
+    .uber-requestnow-button {
+      border-style: none;
+      background-color: black;
+      color: white;
+      padding: 10px 15px;
+      margin-top: 25px;
+      margin-right: 10px;
+      vertical-align: middle;
+      cursor: pointer;
+      font-family: helvetica;
+    }
+
+    .uber-schedule-button {
+      border-style: none;
+      background-color: rgb(239, 239, 239);
+      padding: 10px 15px;
+      margin-top: 25px;
+      vertical-align: middle;
+      cursor: pointer;
+      font-family: helvetica;
+    }
