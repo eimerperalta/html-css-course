@@ -1,0 +1,162 @@
+p {
+  font-family: helvetica;
+}
+
+.red-square {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-style: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+.green-circle {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.feedback-9c-container {
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  display: block;
+  padding: 10px;
+  width: 300px;
+  margin: 5px;
+}
+
+.youtube-container-9d {
+  background-color: rgb(41, 40, 40);
+  width: 370px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.youtube-text-1 {
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.youtube-text-2 {
+  color: gray;
+}
+
+.bojack-7g {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+  margin-right: 0px;
+  vertical-align: middle;
+}
+
+.twitter-box {
+  border-style: none;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 3px;
+  vertical-align: middle;
+  width: 300px;
+}
+
+.twitter-button {
+  background-color: rgb(29, 155, 240);
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  border-style: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.twitter-container {
+  border-style: none;
+  border-radius: 7px;
+  display: block;
+  width: fit-content;
+  padding: 10px 15px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  margin: 10px 0;
+}
+
+.friend-9f-img {
+  width: 160px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
+  object-position: top;
+  border-style: none;
+
+}
+
+.friend-name-text {
+  margin: 3px 5px;
+  font-weight: bold;
+}
+
+.mutual-friends-text {
+  margin: 3px 5px;
+  color: gray;
+  font-size: small;
+}
+
+.addfriend-button {
+  background-color: rgb(0, 129, 214);
+  color: white;
+  border-radius: 3px;
+  border-style: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin: 8px 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.friend-card-container {
+  display: inline-block;
+  margin: 5px;
+  border-style: none;
+  padding: 0;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.google-logo {
+  width: 200px;
+  display: block;
+  margin: auto;
+  padding: 15px;
+}
+
+.google-searchbox {
+  border-radius: 20px;
+  border-style: none;
+  width: 450px;
+  height: 25px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+  padding: 5px 10px;
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.google-buttons {
+  padding: 10px;
+  border-style: none;
+  cursor: pointer;
+  margin: 20px 3px;
+}
+
+.google-container {
+  text-align: center;
+}

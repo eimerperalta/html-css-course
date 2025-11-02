@@ -1,18 +1,21 @@
 p {
   margin: 0;
-   font-family: "Montserrat";
-   font-optical-sizing: auto;
-   font-style: normal;
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-style: normal;
 }
+
 .car {
   font-size: xx-large;
   font-weight: bold;
   text-align: center;
 }
+
 .order {
   text-align: center;
   margin-top: 8px;
 }
+
 .delivery {
   text-decoration: underline;
   cursor: pointer;
