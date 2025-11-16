@@ -6,10 +6,12 @@
   <style>
     p {
       font-family: helvetica;
+      margin-top: 0;
+      margin-bottom: 0;
     }
 
-    .friend-9f-img {
-      width: 160px;
+    .friend-profile-img {
+      width: 200px;
       height: 200px;
       padding: 0;
       margin: 0;
@@ -25,90 +27,84 @@
     }
 
     .mutual-friends-text {
-      margin: 3px 5px;
-      color: gray;
+      display: inline-block;
+      vertical-align: middle;
+      color: rgb(100, 100, 100);
       font-size: small;
     }
 
     .addfriend-button {
       background-color: rgb(0, 129, 214);
       color: white;
-      border-radius: 3px;
-      border-style: none;
+      border-radius: 4px;
+      border: none;
       padding: 5px 15px;
       cursor: pointer;
-      margin: 8px 5px;
+      margin: 0 0 10px 8px;
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
     }
 
     .friend-card-container {
+      width: 200px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
       display: inline-block;
-      margin: 5px;
-      border-style: none;
-      padding: 0;
-      box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+      vertical-align: top;
+      margin-right: 15px;
+    }
+
+    .mutual-friends-row {
+      margin-left: 8px;
+      margin-bottom: 10px;
+    }
+
+    .mutual-friends-picture {
+      height: 28px;
+      width: 28px;
+      object-fit: cover;
+      border-radius: 14px;
+      vertical-align: middle;
+      margin-right: 4px;
+      object-position: top;
     }
   </style>
 </head>
 
-<body>
+<body style="margin-bottom: 100px;">
   <!-- 9f Friend suggestion -->
   <p style="color: brown; text-decoration: underline;">Challenge Exercises</p>
   <!-- 9f Angela card -->
   <div class="friend-card-container">
-    <!-- Angela card picture container -->
-    <div>
-      <img class="friend-9f-img" src="thumbnails-exercises/Angela_Martin.webp">
-    </div>
-    <!-- Angela card info containers -->
-    <div>
-      <p class="friend-name-text">Angela</p>
-    </div>
-    <div>
+    <img class="friend-profile-img" src="thumbnails-exercises/Angela_Martin.webp">
+    <p class="friend-name-text">Angela</p>
+    <div class="mutual-friends-row">
+      <img class="mutual-friends-picture" src="thumbnails-exercises/creed.webp">
       <p class="mutual-friends-text">2 mutual friends</p>
     </div>
-    <div>
-      <button class="addfriend-button">Add Friend</button>
-    </div>
+    <button class="addfriend-button">Add Friend</button>
   </div>
 
   <!-- 9g Dwight -->
   <div class="friend-card-container">
-    <!-- Dwight card picture container -->
-    <div>
-      <img class="friend-9f-img" src="thumbnails-exercises/dwight-schrute.webp">
-    </div>
-    <!-- Dwight card info containers -->
-    <div>
-      <p class="friend-name-text">Dwight</p>
-    </div>
-    <div>
+    <img class="friend-profile-img" src="thumbnails-exercises/dwight-schrute.webp">
+    <p class="friend-name-text">Dwight</p>
+    <div class="mutual-friends-row">
+      <img class="mutual-friends-picture" src="thumbnails-exercises/creed.webp">
       <p class="mutual-friends-text">3 mutual friends</p>
     </div>
-    <div>
-      <button class="addfriend-button">Add Friend</button>
-    </div>
+    <button class="addfriend-button">Add Friend</button>
   </div>
 
   <!-- 9g Mike -->
   <div class="friend-card-container">
-    <!-- Mike card picture container -->
-    <div>
-      <img class="friend-9f-img" src="thumbnails-exercises/prison-mike.jpg">
-    </div>
-    <!-- Mike card info containers -->
-    <div>
-      <p class="friend-name-text">Mike</p>
-    </div>
-    <div>
+    <img class="friend-profile-img" src="thumbnails-exercises/prison-mike.jpg">
+    <p class="friend-name-text">Mike</p>
+    <div class="mutual-friends-row">
+      <img class="mutual-friends-picture" src="thumbnails-exercises/creed.webp">
       <p class="mutual-friends-text">4 mutual friends</p>
     </div>
-    <div>
-      <button class="addfriend-button">Add Friend</button>
-    </div>
+    <button class="addfriend-button">Add Friend</button>
   </div>
 
-  <p style="margin-bottom: 100px;"> </p>
 </body>
 
 </html>

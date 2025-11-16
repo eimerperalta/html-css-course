@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Exercises lesson 11</title>
+  <style>
+    .grid-11a {
+      display: grid;
+      grid-template-columns: 200px 75px;
+      padding-bottom: 10px;
+    }
+
+    .grid-11b {
+      display: grid;
+      grid-template-columns: 50px 1fr 75px;
+      padding-bottom: 10px;
+    }
+
+    .grid-11c {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 10px;
+      padding-bottom: 10px;
+    }
+
+    .grid-11d {
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      align-items: center;
+      column-gap: 20px;
+    }
+
+    /* The Office */
+    p {
+      font-family: helvetica;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .friend-card-container {
+      width: 200px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 15px;
+    }
+
+    .friend-profile-img {
+      width: 200px;
+      height: 200px;
+      padding: 0;
+      margin: 0;
+      object-fit: cover;
+      object-position: top;
+      border-style: none;
+    }
+
+    .friend-name-text {
+      margin: 3px 5px;
+      font-weight: bold;
+    }
+
+    .mutual-friends-text {
+      display: inline-block;
+      vertical-align: middle;
+      color: rgb(100, 100, 100);
+      font-size: small;
+    }
+
+    .mutual-friends-row {
+      display: grid;
+      grid-template-columns: 35px 1fr;
+      align-items: center;
+      margin-left: 8px;
+      margin-bottom: 10px;
+    }
+
+    .mutual-friends-picture {
+      height: 28px;
+      width: 28px;
+      object-fit: cover;
+      border-radius: 14px;
+      vertical-align: middle;
+      margin-right: 4px;
+      object-position: top;
+    }
+
+    .addfriend-button {
+      background-color: rgb(0, 129, 214);
+      color: white;
+      border-radius: 4px;
+      border: none;
+      padding: 5px 15px;
+      cursor: pointer;
+      margin: 0 0 10px 8px;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+
+<body style="padding-bottom: 30px;">
+  <!-- 11a: two columns -->
+  <div class="grid-11a">
+    <div style="background-color: lightblue;">200px</div>
+    <div style="background-color: lightpink;">75px</div>
+  </div><br>
+
+  <!-- 11b: 3 columns -->
+  <div class="grid-11b">
+    <div style="background-color: lightblue;">col1</div>
+    <div style="background-color: lightpink;">col2</div>
+    <div style="background-color: lightblue;">col3</div>
+  </div>
+
+  <!-- 11c: 4 columns -->
+  <div class="grid-11c">
+    <div style="background-color: lightpink;">col1</div>
+    <div style="background-color: lightpink;">col2</div>
+    <div style="background-color: lightpink;">col3</div>
+    <div style="background-color: lightpink;">col4</div>
+    <div style="background-color: lightpink;">col1</div>
+    <div style="background-color: lightpink;">col2</div>
+    <div style="background-color: lightpink;">col3</div>
+    <div style="background-color: lightpink;">col4</div>
+  </div>
+
+  <!-- 11d: The Office with grids (10e) -->
+  <div class="grid-11d">
+    <!-- 9f Angela card -->
+    <div class="friend-card-container">
+      <img class="friend-profile-img" src="thumbnails-exercises/Angela_Martin.webp">
+      <p class="friend-name-text">Angela</p>
+      <div class="mutual-friends-row">
+        <img class="mutual-friends-picture" src="thumbnails-exercises/creed.webp">
+        <p class="mutual-friends-text">2 mutual friends</p>
+      </div>
+      <button class="addfriend-button">Add Friend</button>
+    </div>
+
+    <!-- 9g Dwight -->
+    <div class="friend-card-container">
+      <img class="friend-profile-img" src="thumbnails-exercises/dwight-schrute.webp">
+      <p class="friend-name-text">Dwight</p>
+      <div class="mutual-friends-row">
+        <img class="mutual-friends-picture" src="thumbnails-exercises/creed.webp">
+        <p class="mutual-friends-text">3 mutual friends</p>
+      </div>
+      <button class="addfriend-button">Add Friend</button>
+    </div>
+
+    <!-- 9g Mike -->
+    <div class="friend-card-container">
+      <img class="friend-profile-img" src="thumbnails-exercises/prison-mike.jpg">
+      <p class="friend-name-text">Mike</p>
+      <div class="mutual-friends-row">
+        <img class="mutual-friends-picture" src="thumbnails-exercises/creed.webp">
+        <p class="mutual-friends-text">4 mutual friends</p>
+      </div>
+      <button class="addfriend-button">Add Friend</button>
+    </div>
+
+  </div>
+</body>
+
+</html>
