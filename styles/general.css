@@ -1,0 +1,18 @@
+div {
+  border-style: solid;
+  border-color: red;
+  border-width: 0.1px;
+}
+
+p {
+  border-style: solid;
+  border-color: blue;
+  border-width: 0.1px;
+  font-family: Roboto, Arial;
+  margin: 0;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+}
