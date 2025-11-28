@@ -1,0 +1,197 @@
+div {
+  font-family: Arial;
+}
+
+/* 13A Exercise */
+.flexbox-13a {
+  display: flex;
+  height: 50px;
+}
+
+.column-A-13a {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item1-13a {
+  background-color: black;
+  color: white;
+}
+
+.column-B-13a {
+  background-color: lightblue;
+  width: 200px;
+}
+
+/* 13B Exercise */
+.flexbox-13b {
+  display: flex;
+  height: 50px;
+}
+
+.column-A-13b {
+  background-color: lightpink;
+  width: 100px;
+  height: 100%;
+}
+
+.column-B-13b {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.row2-13b {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row2-items {
+  background-color: black;
+  color: white;
+}
+
+/* 13d Exercises */
+.gmail-box-div-13d {
+  border: none;
+  width: 300px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.header-13d {
+  color: gray;
+  font-size: small;
+  margin-bottom: 20px;
+}
+
+.body-13d {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pic-div-13d {
+  margin-right: 5px;
+}
+
+.profile-img-13d {
+  object-fit: cover;
+  object-position: 50% 20%;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+}
+
+.email-items-13d {
+  flex: 1;
+}
+
+.items-row1-13d {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.sender-13d {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.row1-time-13d {
+  font-size: xx-small;
+  color: gray;
+}
+
+.subject-13d {
+  font-size: small;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.email-preview-13d {
+  font-size: x-small;
+  color: gray;
+}
+
+/* 13g Twitter Post */
+.tweet-container-13g {
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.profile-column-13g {
+  margin-right: 10px;
+}
+
+.profile-img-13g {
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.tweet-column-13g {
+  flex: 1;
+}
+
+.tweet-header {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.tweet-author-13g {
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: small;
+}
+
+.tweet-handle-13g {
+  color: gray;
+  font-size: small;
+  flex: 1
+}
+
+.tweet-content {
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+.youtube-preview-flex-13g {
+  display: flex;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 0.5px;
+  overflow: hidden;
+  margin: 10px 10px 10px 0;
+}
+
+.youtube-preview-columnA-13g {
+  background-color: gray;
+  flex: 1;
+}
+
+.youtube-preview-columnB-13g {
+  flex: 3;
+  padding: 8px;
+}
+
+.youtube-url-13g {
+  color: gray;
+  font-size: small;
+}
+
+.youtube-title-13g {
+  line-height: 22px;
+}
