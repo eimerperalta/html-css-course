@@ -1,0 +1,105 @@
+body {
+  height: 3000px;
+}
+
+.x-button-15a {
+  display: flex;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gray-box-15b {
+  width: 320px;
+  height: 180px;
+  background-color: gray;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.gray-box-15c {
+  width: 320px;
+  height: 180px;
+  background-color: gray;
+  position: fixed;
+  bottom: 10px;
+  left: 30px;
+}
+
+.x-button-15c {
+  display: flex;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer
+}
+
+.video-time {
+  position: absolute;
+  z-index: 100;
+  font-family: Arial;
+  color: white;
+  background-color: black;
+  bottom: 6px;
+  right: 6px;
+  padding: 4px 6px;
+}
+
+.shirt-container-15e {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.shirt-img-15e {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.discount-15e {
+  position: absolute;
+  background-color: black;
+  color: white;
+  font-family: arial;
+  top: 10px;
+  right: 0;
+  padding: 6px 12px;
+}
+
+.overlay-15f {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 85px;
+  background-color: rgba(255, 255, 255, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.addtocart-button-15f {
+  height: 35px;
+  width: 100px;
+  background-color: white;
+  border-width: 1px;
+}

@@ -7,8 +7,9 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: white;
+  z-index: 100;
 
+  background-color: white;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: rgb(228, 228, 228);
@@ -93,6 +94,22 @@
 }
 .youtube-apps-icon {
 height: 24px;
+}
+
+.notifications-icon-container {
+  position: relative;
+}
+
+.notifications-count {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  padding: 2px 5px;
+  border-radius: 12px;
 }
 .notifications-icon {
 height: 24px;
