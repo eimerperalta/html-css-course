@@ -1,0 +1,181 @@
+body {
+  height: 3000px;
+  /* padding: 10px; */
+}
+
+div {
+  font-family: Arial;
+}
+
+/* 14A bottom right */
+.bottom-right-14a {
+  background-color: black;
+  color: white;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.right-sidebar-14b {
+  position: fixed;
+  background-color: green;
+  color: white;
+  width: 100px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.full-cover-14c {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  align-content: center;
+  font-weight: bold;
+}
+
+.overlay-14d {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Modal-container-14d {
+  border-style: none;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  width: 350px;
+  height: 100px;
+  line-height: 30px;
+}
+
+.modal-title-14d {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.modal-text-14d {
+  font-size: medium;
+}
+
+.modal-button-14d {
+  justify-items: center;
+}
+
+.header-container-14e {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  background-color: lightsalmon;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 55px;
+  padding: 10px 50px;
+  align-items: center;
+}
+.left-section-14e {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img-14e {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 8px;
+  margin-left: 8px;
+  object-fit: cover;
+  cursor: pointer
+}
+.profile-name-14e {
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: small;
+}
+.blank-space-14e {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.right-section-14e {
+
+}
+.addFriend-button-14e {
+  background-color: rgb(0, 106, 255);
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  width: 85px;
+  color: white;
+  padding: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: small;
+  cursor: pointer;
+}
+.message-button-14e {
+  background-color: rgb(225, 225, 225);
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  width: 85px;
+  color: black;
+  padding: 5px;
+  font-weight: bold;
+  font-size: small;
+  cursor: pointer;
+}
+.servers-bar-14f {
+  background-color: rgb(34, 34, 34);
+  position: fixed;
+  top: 75px;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  padding-top: 20px;
+  justify-items: center;
+}
+.info-channels-sidebar-14f {
+background-color: rgb(52, 52, 52);
+position: fixed;
+top: 75px;
+bottom: 0;
+left: 70px;
+width: 150px;
+padding: 5px 10px;
+line-height: 40px;
+}
+
+.sidebar2-header-14f {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-14f {
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  cursor: pointer
+}
+.plus-sign-14f {
+  font-size: x-large;
+  color: rgb(155, 155, 155);
+  cursor: pointer
+}
+.channel-text-14f {
+  color: rgb(187, 187, 187);
+  cursor: pointer
+}
