@@ -1,5 +1,5 @@
 .thumbnail-row-container {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   position: relative;
 }
 
@@ -18,7 +18,7 @@
   position: absolute;
   bottom: 8px;
   right: 5px;
-  
+
 }
 
 .video-title-p {
@@ -26,25 +26,23 @@
   margin: 0;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
+}
+
+.video-link {
+  color: black;
+  text-decoration: none;
+
 }
 
 .video-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;
-  /* align-items: center; */
-  /* Centers items vertically */
-  justify-items: center;
-  /* Centers items horizontally */
 }
 
 .profile-pic-img {
-  width: 40px;
+  width: 36px;
   border-radius: 25px;
-
-  align-items: center;
-  vertical-align: middle;
-  object-position: center;
 }
 
 .video-author,
@@ -62,4 +60,52 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+}
+
+.profile-picture-container {
+  position: relative;
+  display: inline-block
+}
+
+.channel-tooltip {
+  width: 200px;
+  position: absolute;
+  /* top: 55px; */
+  display: flex;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+  padding: 12px;
+  z-index: 300;
+  opacity: 0;
+  pointer-events: none;
+  transition-property: opacity;
+  transition-duration: 0.25s;
+  align-items: center;
+}
+
+.channel-tooltip-picture {
+  border-radius: 30px;
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.channel-tooltip-columnB {
+  line-height: 23px;
+}
+
+.channel-tooltip-name {
+  font-weight: bold;
+}
+
+.channel-tooltip-stats {
+  color: gray;
+  font-size: small;
+}
+
+/* Target child CSS class (channel-tooltip) with a pseudo class (hover) */
+.profile-picture-container:hover .channel-tooltip {
+  opacity: 1;
 }

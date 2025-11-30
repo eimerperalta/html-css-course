@@ -1,5 +1,5 @@
 div {
-  /* border-style: solid;
+/*  border-style: solid;
   border-color: red;
   border-width: 0.1px; */
 }
@@ -10,11 +10,13 @@ p {
   border-width: 0.1px; */
   font-family: Roboto, Arial;
   margin: 0;
-  cursor: pointer;
 }
 
 body {
   margin: 0;
   padding-top: 80px;
-  padding-left: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgb(248, 248, 248);
+  font-family: Roboto, Arial;
 }
