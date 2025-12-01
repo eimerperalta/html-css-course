@@ -1,34 +1,31 @@
-# HTML & CSS Course Practice
+# HTML & CSS Course
 
 This repository contains my code and practice exercises from the [HTML & CSS Course by SuperSimpleDev](https://github.com/SuperSimpleDev/html-css-course/).
 
-The main objective of this project is to learn web development fundamentals by building a replica of the YouTube website, along with various smaller exercises to master specific concepts.
+## Main Project
 
-## Projects
+**YouTube Clone** (`youtube.html`) — A replica of the YouTube homepage featuring:
+- Header with Flexbox layout (menu, search bar, tooltips)
+- Sidebar navigation
+- Video grid using CSS Grid
+- Modular CSS (`general.css`, `header.css`, `video.css`, `sidebar.css`)
 
-### 1. YouTube Clone
-The core project of this course. It replicates the layout and styling of the YouTube homepage.
-- **File:** `youtube.html`
-- **Key Features:**
-  - **Header Section:** Created using Flexbox for aligning the menu, search bar, and user icons.
-  - **Video Grid:** Implemented using CSS Grid to display video thumbnails and details in a responsive layout.
-  - **Styling:** Organized into separate CSS files (`general.css`, `header.css`, `video.css`) for better maintainability.
+## CSS Layout Practice
 
-### 2. Concept Practice
-Dedicated files for experimenting with specific CSS layout modules.
-- **Flexbox:** `flexbox.html` - Practice with `display: flex`, `justify-content`, `align-items`, etc.
-- **CSS Grid:** `grid.html` - Practice with `display: grid`, `grid-template-columns`, etc.
+| File | Concepts |
+|------|----------|
+| `flexbox.html` | Flex containers, `flex-direction`, `justify-content`, `align-items` |
+| `grid.html` | Grid columns, `fr` units, `column-gap`, `row-gap` |
+| `position.html` | Fixed, absolute, relative positioning, `z-index` |
 
-### 3. Intro to HTML Exercises
-A collection of progressive exercises located in the `Intro-to-html/` folder, covering:
-- Basic HTML elements (Buttons, Text)
-- CSS Box Model (Margins, Padding, Borders)
-- Nested Layouts technique
-- Styling exercises (`exercise-1.html` through `exercise-13.html`)
+## Exercises
 
-## Technologies Used
-- **HTML5**: Semantic structure and elements.
-- **CSS3**: Modern layout techniques (Flexbox, Grid), styling, and responsiveness.
+`Intro-to-html/` contains 15+ exercises covering:
+- HTML basics (buttons, text, links)
+- CSS Box Model
+- Nested layouts technique
+- Styling with external CSS files
 
-## How to View
-You can open any of the `.html` files directly in your web browser to view the results.
+## Technologies
+
+HTML5 • CSS3 (Flexbox, Grid, Positioning)

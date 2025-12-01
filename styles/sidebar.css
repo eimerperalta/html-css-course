@@ -1,34 +1,73 @@
-.sidebar {
-  background-color: white;
-  position: fixed;
-  top: 55px;
-  bottom: 0;
-  left: 0;
-  width: 72px;
-  z-index: 200;
-  padding-top: 5px;
+/* Styles for the sidebar navigation */
+@media (max-width: 1350px) {
+  .sidebar {
+    background-color: white;
+    position: fixed;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+  }
+
+  .sidebar-link {
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sidebar-link:hover {
+    background-color: rgb(235, 235, 235);
+  }
+
+  .sidebar-link img {
+    height: 24px;
+    margin-bottom: 4px;
+  }
+
+  .sidebar-link div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+  }
 }
 
-.sidebar-link {
-  height: 74px;
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  justify-content: center;
-  align-items: center;
+/* Expanded sidebar when width is greater than 1350px */
+@media (min-width: 1350.1px) {
+  .sidebar {
+    background-color: white;
+    position: fixed;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    width: 240px;
+    z-index: 200;
+    padding-top: 13px;
+  }
 
-}
+  .sidebar-link {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    padding: 12px 24px;
+  }
 
-.sidebar-link:hover {
-  background-color: rgb(235, 235, 235);
-}
+  .sidebar-link:hover {
+    background-color: rgb(235, 235, 235);
+  }
 
-.sidebar-link img {
-  height: 24px;
-  margin-bottom: 4px;
-}
+  .sidebar-link img {
+    height: 24px;
+    margin-right: 24px;
+  }
 
-.sidebar-link div {
-  font-family: Roboto, Arial;
-  font-size: 10px;
+  .sidebar-link div {
+    font-size: 16px;
+    flex-direction: column;
+  }
+
 }

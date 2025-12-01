@@ -1,3 +1,4 @@
+/* Styles for the video grid and video items */
 .thumbnail-row-container {
   margin-bottom: 8px;
   position: relative;
@@ -10,14 +11,14 @@
 .video-time {
   font-family: Roboto, arial;
   font-size: 12px;
-  font-weight: 500px;
+  font-weight: 500;
   padding: 4px 4px;
   border-radius: 2px;
   background-color: black;
   color: white;
   position: absolute;
-  bottom: 8px;
-  right: 5px;
+  bottom: 11px;
+  right: 4px;
 
 }
 
@@ -57,20 +58,48 @@
 
 .video-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr; */
   column-gap: 16px;
   row-gap: 40px;
 }
 
+/* activates only if window size if < 600px */
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px ) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .video-title-p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .video-author,
+  .video-stats {
+    font-size: 14px;
+  }
+}
+
 .profile-picture-container {
   position: relative;
-  display: inline-block
+  display: inline-block;
 }
 
 .channel-tooltip {
   width: 200px;
   position: absolute;
-  /* top: 55px; */
+  top: 55px;
   display: flex;
   background-color: white;
   border-radius: 6px;
